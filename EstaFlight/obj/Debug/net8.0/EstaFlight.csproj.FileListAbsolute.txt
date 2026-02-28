@@ -1,0 +1,14 @@
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\bin\Debug\net8.0\EstaFlight.exe
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\bin\Debug\net8.0\EstaFlight.deps.json
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\bin\Debug\net8.0\EstaFlight.runtimeconfig.json
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\bin\Debug\net8.0\EstaFlight.dll
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\bin\Debug\net8.0\EstaFlight.pdb
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\EstaFlight.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\EstaFlight.AssemblyInfoInputs.cache
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\EstaFlight.AssemblyInfo.cs
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\EstaFlight.csproj.CoreCompileInputs.cache
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\EstaFlight.dll
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\refint\EstaFlight.dll
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\EstaFlight.pdb
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\EstaFlight.genruntimeconfig.cache
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\ref\EstaFlight.dll
