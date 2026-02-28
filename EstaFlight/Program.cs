@@ -33,7 +33,6 @@ namespace FlightSystem
                 Console.Write("Choose: ");
                 string sortChoice = Console.ReadLine();
 
-                // Simple bubble sort
                 for (int i = 0; i < price.Length - 1; i++)
                 {
                     for (int j = 0; j < price.Length - i - 1; j++)
@@ -47,12 +46,10 @@ namespace FlightSystem
 
                         if (swap)
                         {
-                            // swap price
                             int tempPrice = price[j];
                             price[j] = price[j + 1];
                             price[j + 1] = tempPrice;
 
-                            // swap other related data
                             string tempFrom = from[j];
                             from[j] = from[j + 1];
                             from[j + 1] = tempFrom;
@@ -98,7 +95,6 @@ namespace FlightSystem
                     Console.WriteLine("No flights found.");
                 }
 
-                // Round Trip Return Search
                 if (roundTrip.ToLower() == "y")
                 {
                     Console.Write("\nReturn Date (dd/mm/yyyy): ");
