@@ -6,6 +6,11 @@ namespace FlightSystem
     {
         static void Main(string[] args)
         {
+            string adminUser = "admin";
+            string adminPass = "admin123";
+            string normalUser = "user";
+            string userPass = "user123";
+
             string[] from = { "MNL", "MNL", "MNL", "CEB", "MNL" };
             string[] to = { "CEB", "CEB", "DVO", "DVO", "CEB" };
             string[] date = { "08/04/2026", "08/04/2026", "09/04/2026", "08/04/2026", "08/04/2026" };

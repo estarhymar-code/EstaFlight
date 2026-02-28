@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EstaFlight")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87f066fc1c44ab22835425c62c320ed11623093b")]
 [assembly: System.Reflection.AssemblyProductAttribute("EstaFlight")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EstaFlight")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

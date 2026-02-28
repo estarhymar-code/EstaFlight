@@ -12,3 +12,4 @@ C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\refint\
 C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\EstaFlight.pdb
 C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\EstaFlight.genruntimeconfig.cache
 C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\ref\EstaFlight.dll
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\EstaFlight.sourcelink.json
