@@ -13,3 +13,11 @@ C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\EstaFli
 C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\EstaFlight.genruntimeconfig.cache
 C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\ref\EstaFlight.dll
 C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\EstaFlight.sourcelink.json
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\bin\Debug\net8.0\App Services.dll
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\bin\Debug\net8.0\Data Services.dll
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\bin\Debug\net8.0\Models (Objects).dll
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\bin\Debug\net8.0\App Services.pdb
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\bin\Debug\net8.0\Data Services.pdb
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\bin\Debug\net8.0\Models (Objects).pdb
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\EstaFlight.csproj.AssemblyReference.cache
+C:\Users\Rhymar Esta\source\repos\EstaFlight\EstaFlight\obj\Debug\net8.0\EstaFlight.csproj.Up2Date

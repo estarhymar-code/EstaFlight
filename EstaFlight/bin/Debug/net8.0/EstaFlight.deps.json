@@ -10,11 +10,57 @@
         "runtime": {
           "EstaFlight.dll": {}
         }
+      },
+      "App Services/1.0.0": {
+        "dependencies": {
+          "Data Services": "1.0.0",
+          "Models (Objects)": "1.0.0"
+        },
+        "runtime": {
+          "App Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Data Services/1.0.0": {
+        "dependencies": {
+          "Models (Objects)": "1.0.0"
+        },
+        "runtime": {
+          "Data Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Models (Objects)/1.0.0": {
+        "runtime": {
+          "Models (Objects).dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
   "libraries": {
     "EstaFlight/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "App Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Data Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Models (Objects)/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

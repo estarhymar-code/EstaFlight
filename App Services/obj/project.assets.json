@@ -1,0 +1,124 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Data Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Models (Objects)": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Data Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Data Services.dll": {}
+        }
+      },
+      "Models (Objects)/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Models (Objects).dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models (Objects).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Data Services/1.0.0": {
+      "type": "project",
+      "path": "../Data Services/Data Services.csproj",
+      "msbuildProject": "../Data Services/Data Services.csproj"
+    },
+    "Models (Objects)/1.0.0": {
+      "type": "project",
+      "path": "../Models (Objects)/Models (Objects).csproj",
+      "msbuildProject": "../Models (Objects)/Models (Objects).csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Data Services >= 1.0.0",
+      "Models (Objects) >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Rhymar Esta\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\App Services\\App Services.csproj",
+      "projectName": "App Services",
+      "projectPath": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\App Services\\App Services.csproj",
+      "packagesPath": "C:\\Users\\Rhymar Esta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\App Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Rhymar Esta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\Data Services\\Data Services.csproj": {
+              "projectPath": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\Data Services\\Data Services.csproj"
+            },
+            "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\Models (Objects)\\Models (Objects).csproj": {
+              "projectPath": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\Models (Objects)\\Models (Objects).csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
