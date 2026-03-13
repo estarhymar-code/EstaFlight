@@ -1,5 +1,7 @@
 ﻿using System;
 using FlightSystem.AppServices;
+using FlightSystem.DataServices;
+using FlightSystem.Models;
 
 namespace FlightSystem
 {
@@ -7,46 +9,48 @@ namespace FlightSystem
     {
         static void Main(string[] args)
         {
-            FlightAppService flightService = new FlightAppService();
+            AppService app = new AppService();
 
-            while (true)
+            Console.Write("Username: ");
+            string user = Console.ReadLine();
+
+            Console.Write("Password: ");
+            string pass = Console.ReadLine();
+
+            User loggedUser = app.Login(user, pass);
+
+            if (loggedUser == null)
             {
-                Console.WriteLine("\n1 Add Flight");
-                Console.WriteLine("2 View Flights");
-                Console.WriteLine("0 Exit");
-                Console.Write("Choose: ");
+                Console.WriteLine("Login failed");
+                return;
+            }
 
-                string choice = Console.ReadLine();
+            Console.WriteLine("Welcome " + loggedUser.Username);
 
-                if (choice == "1")
-                {
-                    Console.Write("From: ");
-                    string from = Console.ReadLine();
+            if (loggedUser.Role == "Admin")
+            {
+                Console.WriteLine("Add a flight");
 
-                    Console.Write("To: ");
-                    string to = Console.ReadLine();
+                Console.Write("From: ");
+                string from = Console.ReadLine();
 
-                    Console.Write("Date: ");
-                    string date = Console.ReadLine();
+                Console.Write("To: ");
+                string to = Console.ReadLine();
 
-                    Console.Write("Price: ");
-                    int price = int.Parse(Console.ReadLine());
+                Console.Write("Date: ");
+                string date = Console.ReadLine();
 
-                    flightService.AddFlight(from, to, date, price);
-                }
-                else if (choice == "2")
-                {
-                    var flights = flightService.GetFlights();
+                Console.Write("Price: ");
+                int price = int.Parse(Console.ReadLine());
 
-                    foreach (var f in flights)
-                    {
-                        Console.WriteLine($"{f.From} -> {f.To} | {f.Date} | ₱{f.Price}");
-                    }
-                }
-                else if (choice == "0")
-                {
-                    break;
-                }
+                app.AddFlight(from, to, date, price);
+            }
+
+            Console.WriteLine("\nFlights:");
+
+            foreach (var f in app.GetFlights())
+            {
+                Console.WriteLine($"{f.From} -> {f.To} | {f.Date} | ₱{f.Price}");
             }
         }
     }

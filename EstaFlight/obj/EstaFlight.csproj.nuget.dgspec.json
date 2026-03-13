@@ -175,6 +175,9 @@
             "projectReferences": {
               "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\App Services\\App Services.csproj": {
                 "projectPath": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\App Services\\App Services.csproj"
+              },
+              "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\Models (Objects)\\Models (Objects).csproj": {
+                "projectPath": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\Models (Objects)\\Models (Objects).csproj"
               }
             }
           }

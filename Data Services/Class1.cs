@@ -3,18 +3,13 @@ using FlightSystem.Models;
 
 namespace FlightSystem.DataServices
 {
-    public class FlightDataService
+    public class DataService
     {
-        private List<Flight> flights = new List<Flight>();
-
-        public void AddFlight(Flight flight)
+        public List<Flight> Flights = new List<Flight>();
+        public List<User> Users = new List<User>()
         {
-            flights.Add(flight);
-        }
-
-        public List<Flight> GetFlights()
-        {
-            return flights;
-        }
+            new User { Username = "admin", Password = "123", Role = "Admin" },
+            new User { Username = "user", Password = "123", Role = "User" }
+        };
     }
 }
