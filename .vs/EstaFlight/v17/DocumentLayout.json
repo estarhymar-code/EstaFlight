@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6ED1D1AB-39C5-4097-AF91-6369CF4954C9}|EstaFlight\\EstaFlight.csproj|c:\\users\\rhymar esta\\source\\repos\\estaflight\\estaflight\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6ED1D1AB-39C5-4097-AF91-6369CF4954C9}|EstaFlight\\EstaFlight.csproj|solutionrelative:estaflight\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6ED1D1AB-39C5-4097-AF91-6369CF4954C9}|EstaFlight\\EstaFlight.csproj|c:\\users\\rhymar esta\\source\\repos\\estaflight\\estaflight\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6ED1D1AB-39C5-4097-AF91-6369CF4954C9}|EstaFlight\\EstaFlight.csproj|solutionrelative:estaflight\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E6723B7-F569-4F47-92A2-03C5FB12935D}|App Services\\App Services.csproj|c:\\users\\rhymar esta\\source\\repos\\estaflight\\app services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E6723B7-F569-4F47-92A2-03C5FB12935D}|App Services\\App Services.csproj|solutionrelative:app services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DF52251-09E1-45BE-9874-B7051C8EC900}|Models (Objects)\\Models (Objects).csproj|c:\\users\\rhymar esta\\source\\repos\\estaflight\\models (objects)\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF52251-09E1-45BE-9874-B7051C8EC900}|Models (Objects)\\Models (Objects).csproj|solutionrelative:models (objects)\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E596A0F-B48C-4225-88D5-00103CE35D39}|Data Services\\Data Services.csproj|c:\\users\\rhymar esta\\source\\repos\\estaflight\\data services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E596A0F-B48C-4225-88D5-00103CE35D39}|Data Services\\Data Services.csproj|solutionrelative:data services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DF52251-09E1-45BE-9874-B7051C8EC900}|Models (Objects)\\Models (Objects).csproj|c:\\users\\rhymar esta\\source\\repos\\estaflight\\models (objects)\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DF52251-09E1-45BE-9874-B7051C8EC900}|Models (Objects)\\Models (Objects).csproj|solutionrelative:models (objects)\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E6723B7-F569-4F47-92A2-03C5FB12935D}|App Services\\App Services.csproj|c:\\users\\rhymar esta\\source\\repos\\estaflight\\app services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6723B7-F569-4F47-92A2-03C5FB12935D}|App Services\\App Services.csproj|solutionrelative:app services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ED1D1AB-39C5-4097-AF91-6369CF4954C9}|EstaFlight\\EstaFlight.csproj|c:\\users\\rhymar esta\\source\\repos\\estaflight\\estaflight\\flights.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6ED1D1AB-39C5-4097-AF91-6369CF4954C9}|EstaFlight\\EstaFlight.csproj|solutionrelative:estaflight\\flights.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "users.json",
+              "DocumentMoniker": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\EstaFlight\\users.json",
+              "RelativeDocumentMoniker": "EstaFlight\\users.json",
+              "ToolTip": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\EstaFlight\\users.json",
+              "RelativeToolTip": "EstaFlight\\users.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-27T14:13:01.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "flights.json",
+              "DocumentMoniker": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\EstaFlight\\flights.json",
+              "RelativeDocumentMoniker": "EstaFlight\\flights.json",
+              "ToolTip": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\EstaFlight\\flights.json",
+              "RelativeToolTip": "EstaFlight\\flights.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-27T14:11:55.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\App Services\\Class1.cs",
               "RelativeDocumentMoniker": "App Services\\Class1.cs",
               "ToolTip": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\App Services\\Class1.cs",
               "RelativeToolTip": "App Services\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T12:05:17.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\Data Services\\Class1.cs",
-              "RelativeDocumentMoniker": "Data Services\\Class1.cs",
-              "ToolTip": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\Data Services\\Class1.cs",
-              "RelativeToolTip": "Data Services\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T12:04:27.377Z",
+              "WhenOpened": "2026-03-27T13:36:23.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\Data Services\\Class1.cs",
+              "RelativeDocumentMoniker": "Data Services\\Class1.cs",
+              "ToolTip": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\Data Services\\Class1.cs",
+              "RelativeToolTip": "Data Services\\Class1.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T12:04:27.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\Models (Objects)\\Class1.cs",
               "RelativeDocumentMoniker": "Models (Objects)\\Class1.cs",
               "ToolTip": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\Models (Objects)\\Class1.cs",
               "RelativeToolTip": "Models (Objects)\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T12:03:32.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\EstaFlight\\Program.cs",
               "RelativeDocumentMoniker": "EstaFlight\\Program.cs",
               "ToolTip": "C:\\Users\\Rhymar Esta\\source\\repos\\EstaFlight\\EstaFlight\\Program.cs",
               "RelativeToolTip": "EstaFlight\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T02:34:53.45Z",
               "EditorCaption": ""

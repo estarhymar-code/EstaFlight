@@ -1,0 +1,117 @@
+[
+  {
+    "From": "MNL",
+    "To": "CEB",
+    "Date": "2026-04-01",
+    "Price": 2500
+  },
+  {
+    "From": "MNL",
+    "To": "DVO",
+    "Date": "2026-04-02",
+    "Price": 3500
+  },
+  {
+    "From": "CEB",
+    "To": "MNL",
+    "Date": "2026-04-03",
+    "Price": 2400
+  },
+  {
+    "From": "DVO",
+    "To": "MNL",
+    "Date": "2026-04-04",
+    "Price": 3600
+  },
+
+  {
+    "From": "MNL",
+    "To": "ILO",
+    "Date": "2026-04-05",
+    "Price": 2200
+  },
+  {
+    "From": "ILO",
+    "To": "MNL",
+    "Date": "2026-04-06",
+    "Price": 2300
+  },
+
+  {
+    "From": "MNL",
+    "To": "BCD",
+    "Date": "2026-04-07",
+    "Price": 2100
+  },
+  {
+    "From": "BCD",
+    "To": "MNL",
+    "Date": "2026-04-08",
+    "Price": 2150
+  },
+
+  {
+    "From": "CEB",
+    "To": "DVO",
+    "Date": "2026-04-09",
+    "Price": 2800
+  },
+  {
+    "From": "DVO",
+    "To": "CEB",
+    "Date": "2026-04-10",
+    "Price": 2750
+  },
+
+  {
+    "From": "MNL",
+    "To": "TAG",
+    "Date": "2026-04-11",
+    "Price": 2600
+  },
+  {
+    "From": "TAG",
+    "To": "MNL",
+    "Date": "2026-04-12",
+    "Price": 2550
+  },
+
+  {
+    "From": "MNL",
+    "To": "CRK",
+    "Date": "2026-04-13",
+    "Price": 1500
+  },
+  {
+    "From": "CRK",
+    "To": "MNL",
+    "Date": "2026-04-14",
+    "Price": 1400
+  },
+
+  {
+    "From": "CEB",
+    "To": "ILO",
+    "Date": "2026-04-15",
+    "Price": 2000
+  },
+  {
+    "From": "ILO",
+    "To": "CEB",
+    "Date": "2026-04-16",
+    "Price": 2050
+  },
+
+  {
+    "From": "MNL",
+    "To": "PPS",
+    "Date": "2026-04-17",
+    "Price": 3200
+  },
+  {
+    "From": "PPS",
+    "To": "MNL",
+    "Date": "2026-04-18",
+    "Price": 3150
+  }
+]

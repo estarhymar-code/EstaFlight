@@ -11,23 +11,29 @@ namespace FlightSystem.AppServices
         private DataService data = new DataService();
         public User Login(string username, string password)
         {
-            return data.Users
-                .FirstOrDefault(u => u.Username == username && u.Password == password);
+            var users = data.GetUsers();
+
+            return users.FirstOrDefault(u =>
+                u.Username == username && u.Password == password
+            );
         }
         public void AddFlight(string from, string to, string date, int price)
         {
-            data.Flights.Add(new Flight
+            var flights = data.GetFlights();
+
+            flights.Add(new Flight
             {
                 From = from,
                 To = to,
                 Date = date,
                 Price = price
             });
+            data.SaveFlights(flights);
         }
 
         public List<Flight> GetFlights()
         {
-            return data.Flights;
+            return data.GetFlights();
         }
     }
 }

@@ -12,22 +12,22 @@ namespace FlightSystem
             AppService app = new AppService();
 
             Console.Write("Username: ");
-            string user = Console.ReadLine();
+            string username = Console.ReadLine();
 
             Console.Write("Password: ");
-            string pass = Console.ReadLine();
+            string password = Console.ReadLine();
 
-            User loggedUser = app.Login(user, pass);
+            var user = app.Login(username, password);
 
-            if (loggedUser == null)
+            if (user == null)
             {
-                Console.WriteLine("Login failed");
+                Console.WriteLine("Invalid login");
                 return;
             }
 
-            Console.WriteLine("Welcome " + loggedUser.Username);
+            Console.WriteLine("Welcome " + user.Username);
 
-            if (loggedUser.Role == "Admin")
+            if (user.Role == "Admin")
             {
                 Console.WriteLine("Add a flight");
 

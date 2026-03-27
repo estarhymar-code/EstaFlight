@@ -1,0 +1,16 @@
+{
+  [
+    {
+      "From": "Manila",
+      "To": "Cebu",
+      "Date": "2026-04-01",
+      "Price": 2500
+    },
+    {
+      "From": "Manila",
+      "To": "Davao",
+      "Date": "2026-04-02",
+      "Price": 3500
+    }
+  ]
+}
