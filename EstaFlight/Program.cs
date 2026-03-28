@@ -1,7 +1,4 @@
-﻿using System;
-using FlightSystem.AppServices;
-using FlightSystem.DataServices;
-using FlightSystem.Models;
+﻿using FlightSystem.AppServices;
 
 namespace FlightSystem
 {
@@ -29,7 +26,7 @@ namespace FlightSystem
 
             if (user.Role == "Admin")
             {
-                Console.WriteLine("Add a flight");
+                Console.WriteLine("\nAdd a flight");
 
                 Console.Write("From: ");
                 string from = Console.ReadLine();
