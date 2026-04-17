@@ -21,5 +21,24 @@ namespace FlightSystem.AppServices
         {
             data.AddFlight(from, to, date, price);
         }
+
+        public void DeleteFlight(string from, string to)
+        {
+            data.DeleteFlight(from, to);
+        }
+
+        public void AddUser(string username, string password, string role)
+        {
+            data.AddUser(username, password, role);
+        }
+
+        public void DeleteUser(string username)
+        {
+            data.DeleteUser(username);
+        }
+        public bool ChangePassword(string username, string oldPassword, string newPassword)
+        {
+            return data.ChangePassword(username, oldPassword, newPassword);
+        }
     }
 }
