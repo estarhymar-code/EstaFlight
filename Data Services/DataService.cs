@@ -14,30 +14,29 @@ namespace FlightSystem.DataServices
             {
                 conn.Open();
 
-                string query = "SELECT Username, Role FROM Users WHERE Username=@u AND Password=@p";
+                string query = "SELECT Username, Password, Role FROM Users WHERE Username=@u AND Password=@p";
 
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@u", username);
                     cmd.Parameters.AddWithValue("@p", password);
 
-                    SqlDataReader reader = cmd.ExecuteReader();
+                    var reader = cmd.ExecuteReader();
 
                     if (reader.Read())
                     {
                         return new User
                         {
                             Username = reader["Username"].ToString(),
+                            Password = reader["Password"].ToString(),
                             Role = reader["Role"].ToString()
                         };
                     }
                 }
             }
-
             return null;
         }
 
-        // GET FLIGHTS
         public List<Flight> GetFlights()
         {
             List<Flight> flights = new List<Flight>();
@@ -50,7 +49,7 @@ namespace FlightSystem.DataServices
 
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
-                    SqlDataReader reader = cmd.ExecuteReader();
+                    var reader = cmd.ExecuteReader();
 
                     while (reader.Read())
                     {
@@ -68,14 +67,13 @@ namespace FlightSystem.DataServices
             return flights;
         }
 
-        // ADD FLIGHT
         public void AddFlight(string from, string to, string date, int price)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
 
-                string query = "INSERT INTO Flights ([From], [To], [Date], Price) VALUES (@f, @t, @d, @p)";
+                string query = "INSERT INTO Flights ([From],[To],[Date],Price) VALUES (@f,@t,@d,@p)";
 
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
@@ -89,7 +87,6 @@ namespace FlightSystem.DataServices
             }
         }
 
-        // DELETE FLIGHT
         public void DeleteFlight(string from, string to)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
@@ -108,14 +105,13 @@ namespace FlightSystem.DataServices
             }
         }
 
-        // ADD USER
         public void AddUser(string username, string password, string role)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
 
-                string query = "INSERT INTO Users (Username, Password, Role) VALUES (@u, @p, @r)";
+                string query = "INSERT INTO Users (Username,Password,Role) VALUES (@u,@p,@r)";
 
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
@@ -128,7 +124,6 @@ namespace FlightSystem.DataServices
             }
         }
 
-        // DELETE USER
         public void DeleteUser(string username)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
@@ -145,34 +140,61 @@ namespace FlightSystem.DataServices
             }
         }
 
-        // CHANGE PASSWORD
-        public bool ChangePassword(string username, string oldPassword, string newPassword)
+        public List<User> GetUsers()
+        {
+            List<User> users = new List<User>();
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+
+                string query = "SELECT Username, Password, Role FROM Users";
+
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    var reader = cmd.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        users.Add(new User
+                        {
+                            Username = reader["Username"].ToString(),
+                            Password = reader["Password"].ToString(),
+                            Role = reader["Role"].ToString()
+                        });
+                    }
+                }
+            }
+
+            return users;
+        }
+
+        public bool ChangePassword(string username, string oldPass, string newPass)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
 
-                string checkQuery = "SELECT COUNT(*) FROM Users WHERE Username=@u AND Password=@p";
+                string check = "SELECT COUNT(*) FROM Users WHERE Username=@u AND Password=@p";
 
-                using (SqlCommand checkCmd = new SqlCommand(checkQuery, conn))
+                using (SqlCommand cmd = new SqlCommand(check, conn))
                 {
-                    checkCmd.Parameters.AddWithValue("@u", username);
-                    checkCmd.Parameters.AddWithValue("@p", oldPassword);
+                    cmd.Parameters.AddWithValue("@u", username);
+                    cmd.Parameters.AddWithValue("@p", oldPass);
 
-                    int count = (int)checkCmd.ExecuteScalar();
+                    int count = (int)cmd.ExecuteScalar();
 
-                    if (count == 0)
-                        return false;
+                    if (count == 0) return false;
                 }
 
-                string updateQuery = "UPDATE Users SET Password=@newPass WHERE Username=@u";
+                string update = "UPDATE Users SET Password=@n WHERE Username=@u";
 
-                using (SqlCommand updateCmd = new SqlCommand(updateQuery, conn))
+                using (SqlCommand cmd = new SqlCommand(update, conn))
                 {
-                    updateCmd.Parameters.AddWithValue("@newPass", newPassword);
-                    updateCmd.Parameters.AddWithValue("@u", username);
+                    cmd.Parameters.AddWithValue("@n", newPass);
+                    cmd.Parameters.AddWithValue("@u", username);
 
-                    updateCmd.ExecuteNonQuery();
+                    cmd.ExecuteNonQuery();
                 }
             }
 

@@ -36,6 +36,12 @@ namespace FlightSystem.AppServices
         {
             data.DeleteUser(username);
         }
+
+        public List<User> GetUsers()
+        {
+            return data.GetUsers();
+        }
+
         public bool ChangePassword(string username, string oldPassword, string newPassword)
         {
             return data.ChangePassword(username, oldPassword, newPassword);
