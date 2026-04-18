@@ -46,7 +46,7 @@ namespace FlightSystem
                 {
                     foreach (var f in app.GetFlights())
                     {
-                        Console.WriteLine($"{f.From} -> {f.To} | {f.Date} | ₱{f.Price}");
+                        Console.WriteLine($"{f.From} -> {f.To} | {f.Date} | P{f.Price}");
                     }
                 }
                 else if (choice == "2" && user.Role == "Admin")
